@@ -400,7 +400,7 @@ plugins=(
 ### Install zsh-syntax-highlighting for terminal !
 
 ```bash
-brew intsall zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
 ```
 
 <aside>
