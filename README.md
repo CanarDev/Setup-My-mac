@@ -20,6 +20,8 @@ The Missing Package Manager for macOS (or Linux)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+---
+
 ### Install MAS
 
 **mas** is a plugin for download MacOs app store apps
@@ -90,7 +92,7 @@ nvm install 8.0 # install node v8
 
 ### Install Yarn
 
-Yarn is a software packaging system
+**Yarn** is a software packaging system
 
 ```bash
 brew install yarn
@@ -126,7 +128,7 @@ sudo mv composer.phar /usr/local/bin/composer
 
 ### Install Laravel Valet:
 
-**Laravel Valet ****is a development environment for macOS minimalists.
+**Laravel Valet** is a development environment for macOS minimalists.
 
 ```bash
 brew update
@@ -156,7 +158,7 @@ valet parked
 
 ### Install PhpMyAdmin
 
-**phpMyAdmin ****is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
+**phpMyAdmin** is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
 
 <aside>
 💡 Go to the website [phpmyadmin](https://www.phpmyadmin.net/) & download it in your “Sites” folder. Open the zip and delete the zip.
@@ -214,7 +216,7 @@ brew install --cask docker
 
 ### Install Alt-Tab
 
-**AltTab ****brings the power of Windows *alt-tab* to macOS.
+**AltTab**brings the power of Windows *alt-tab* to macOS.
 
 ```bash
 brew install --cask alt-tab
@@ -264,7 +266,7 @@ Port: 80
 
 ---
 
-### Install Numi :
+### Install Numi
 
 Beautiful calculator app for Mac.
 
@@ -363,7 +365,7 @@ brew install --cask postman
 
 ## 🚨 PLUGINS 🚨
 
-### Install Auto suggestion for zsh terminal !
+### Install Auto suggestion for zsh terminal
 
 ```bash
 cd $ZSH_CUSTOM/plugins
@@ -397,7 +399,7 @@ plugins=(
 
 ---
 
-### Install zsh-syntax-highlighting for terminal !
+### Install zsh-syntax-highlighting for terminal
 
 ```bash
 brew install zsh-syntax-highlighting
@@ -420,7 +422,7 @@ And add the source code at the end :)
 
 ---
 
-### See All hidden files in Finder :
+### See All hidden files in Finder
 
 ```bash
 defaults write com.apple.Finder AppleShowAllFiles true
