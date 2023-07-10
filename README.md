@@ -1,5 +1,49 @@
 # Set up Mac OS for developers
 
+This repository provides instructions on how to set up your Mac OS for developers. Whether you are starting a new development project or setting up your development environment, this guide will walk you through the necessary tools, applications, and plugins you need to install and how to install them.
+
+Table of contents
+=================
+
+- 🚨 PRIORITY FOR DEV 🚨
+    - [Oh My Zsh](#install-oh-my-zsh)
+    - [Homebrew](#install-homebrew)
+    - [MAS](#install-mas)
+    - [MariaDB](#install-mariadb)
+    - [NVM](#install-nvm)
+    - [Yarn](#install-yarn)
+    - [Php](#install-php)
+    - [Composer](#install-composer)
+    - [Laravel Valet](#install-laravel-valet)
+    - [PhpMyAdmin](#install-phpmyadmin)
+    - [Generate SSH Key Github](#generate-ssh-key-github)
+- 🚨 APP’s 🚨
+    - [Visual Studio Code](#install-visual-studio-code)
+    - [Hyper](#install-hyper)
+    - [Docker](#install-docker)
+    - [Alt-Tab](#install-alt-tab)
+    - [RayCast](#install-raycast)
+    - [Discord](#install-discord)
+    - [Sequel Ace](#install-sequel-ace)
+    - [Numi](#install-numi)
+    - [Loom](#install-loom)
+    - [amphetamine](#install-amphetamine)
+    - [Browsers](#install-browsers)
+    - [Google Drive](#install-google-drive)
+    - [Spotify](#install-spotify)
+    - [Teams](#install-teams)
+    - [Ngrok](#install-ngrok)
+    - [Figma](#install-figma)
+    - [Postman](#install-postman)
+- 🚨 PLUGINS 🚨
+    - [Auto suggestion for zsh terminal](#install-auto-suggestion-for-zsh-terminal)
+    - [zsh-syntax-highlighting for terminal](#install-zsh-syntax-highlighting-for-terminal)
+    - [See All hidden files in Finder](#see-all-hidden-files-in-finder)
+    - [TheFuck](#install-thefuck)
+    - [Gitmoji](#install-gitmoji)
+- httpd-setup
+    - [httpd-setup](#httpd-setup)
+
 ## 🚨 PRIORITY FOR DEV 🚨
 
 ### Install oh my zsh
