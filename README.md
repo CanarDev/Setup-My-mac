@@ -1,5 +1,49 @@
 # Set up Mac OS for developers
 
+This repository provides instructions on how to set up your Mac OS for developers. Whether you are starting a new development project or setting up your development environment, this guide will walk you through the necessary tools, applications, and plugins you need to install and how to install them.
+
+Table of contents
+=================
+
+- 🚨 PRIORITY FOR DEV 🚨
+    - [Oh My Zsh](#install-oh-my-zsh)
+    - [Homebrew](#install-homebrew)
+    - [MAS](#install-mas)
+    - [MariaDB](#install-mariadb)
+    - [NVM](#install-nvm)
+    - [Yarn](#install-yarn)
+    - [Php](#install-php)
+    - [Composer](#install-composer)
+    - [Laravel Valet](#install-laravel-valet)
+    - [PhpMyAdmin](#install-phpmyadmin)
+    - [Generate SSH Key Github](#generate-ssh-key-github)
+- 🚨 APP’s 🚨
+    - [Visual Studio Code](#install-visual-studio-code)
+    - [Hyper](#install-hyper)
+    - [Docker](#install-docker)
+    - [Alt-Tab](#install-alt-tab)
+    - [RayCast](#install-raycast)
+    - [Discord](#install-discord)
+    - [Sequel Ace](#install-sequel-ace)
+    - [Numi](#install-numi)
+    - [Loom](#install-loom)
+    - [amphetamine](#install-amphetamine)
+    - [Browsers](#install-browsers)
+    - [Google Drive](#install-google-drive)
+    - [Spotify](#install-spotify)
+    - [Teams](#install-teams)
+    - [Ngrok](#install-ngrok)
+    - [Figma](#install-figma)
+    - [Postman](#install-postman)
+- 🚨 PLUGINS 🚨
+    - [Auto suggestion for zsh terminal](#install-auto-suggestion-for-zsh-terminal)
+    - [zsh-syntax-highlighting for terminal](#install-zsh-syntax-highlighting-for-terminal)
+    - [See All hidden files in Finder](#see-all-hidden-files-in-finder)
+    - [TheFuck](#install-thefuck)
+    - [Gitmoji](#install-gitmoji)
+- httpd-setup
+    - [httpd-setup](#httpd-setup)
+
 ## 🚨 PRIORITY FOR DEV 🚨
 
 ### Install oh my zsh
@@ -19,6 +63,8 @@ The Missing Package Manager for macOS (or Linux)
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+---
 
 ### Install MAS
 
@@ -90,7 +136,7 @@ nvm install 8.0 # install node v8
 
 ### Install Yarn
 
-Yarn is a software packaging system
+**Yarn** is a software packaging system
 
 ```bash
 brew install yarn
@@ -126,7 +172,7 @@ sudo mv composer.phar /usr/local/bin/composer
 
 ### Install Laravel Valet:
 
-**Laravel Valet ****is a development environment for macOS minimalists.
+**Laravel Valet** is a development environment for macOS minimalists.
 
 ```bash
 brew update
@@ -156,7 +202,7 @@ valet parked
 
 ### Install PhpMyAdmin
 
-**phpMyAdmin ****is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
+**phpMyAdmin** is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
 
 <aside>
 💡 Go to the website [phpmyadmin](https://www.phpmyadmin.net/) & download it in your “Sites” folder. Open the zip and delete the zip.
@@ -214,7 +260,7 @@ brew install --cask docker
 
 ### Install Alt-Tab
 
-**AltTab ****brings the power of Windows *alt-tab* to macOS.
+**AltTab**brings the power of Windows *alt-tab* to macOS.
 
 ```bash
 brew install --cask alt-tab
@@ -264,7 +310,7 @@ Port: 80
 
 ---
 
-### Install Numi :
+### Install Numi
 
 Beautiful calculator app for Mac.
 
@@ -363,7 +409,7 @@ brew install --cask postman
 
 ## 🚨 PLUGINS 🚨
 
-### Install Auto suggestion for zsh terminal !
+### Install Auto suggestion for zsh terminal
 
 ```bash
 cd $ZSH_CUSTOM/plugins
@@ -397,7 +443,7 @@ plugins=(
 
 ---
 
-### Install zsh-syntax-highlighting for terminal !
+### Install zsh-syntax-highlighting for terminal
 
 ```bash
 brew install zsh-syntax-highlighting
@@ -420,7 +466,7 @@ And add the source code at the end :)
 
 ---
 
-### See All hidden files in Finder :
+### See All hidden files in Finder
 
 ```bash
 defaults write com.apple.Finder AppleShowAllFiles true
